@@ -1,0 +1,79 @@
+/*
+ * Plugin Name: Posts From Category
+ * Version: 4.0.1
+ * Plugin URI: http://wordpress.org/plugins/posts-from-category/
+ * Description: Plugin to display posts from specific category. It comes with multiple layout option to display post list. Option to select category or exclude post is available wgich provide advance filter to your requirement. You can enable or disable posted date, thumbnail, read more button and more easily from widget.
+ * Author: Manesh Timilsina
+ * Author URI: https://maneshpro.com/
+ * License: GNU/GPL http://www.gnu.org/copyleft/gpl.html
+ */
+
+ .pfc-posts-main{
+    margin-bottom: 10px;
+ }
+
+.pfc-posts-main .pfc-post {
+    float: none;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    vertical-align: top;
+    margin-left: -3px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pfc-posts-main .pfc-post .news-text-wrap {
+    padding-top: 10px;
+}
+
+.pfc-posts-main .pfc-post .news-text-wrap h2 {
+    margin-bottom: 5px;
+}
+
+.pfc-posts-main .pfc-post {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+.pfc-posts-main .pfc-post .news-text-wrap p,
+.pfc-posts-main .news-text-wrap .read-more {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.pfc-posts-main .news-text-wrap .posted-date,
+.pfc-posts-main .news-text-wrap .read-more{
+    display: inline-block;
+    width: 100%;
+}
+
+.pfc-posts-main .pfc-post:last-child {
+    margin-bottom: 0px;
+} 
+
+/* layout one css starts */
+.pfc-posts-main .pfc-post.layout-one .news-thumb {
+    float: left;
+    width: 115px;
+    position: absolute;
+}
+
+.pfc-posts-main .layout-one .news-text-wrap {
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 135px;
+    min-height: 80px;
+}
+
+.pfc-posts-main .layout-one .news-text-wrap.info-without-space{
+    padding-left: 0px;
+}
+
+/* layout two css starts */
+.pfc-posts-main .pfc-post.layout-two .news-thumb {
+    width: 100%;
+}

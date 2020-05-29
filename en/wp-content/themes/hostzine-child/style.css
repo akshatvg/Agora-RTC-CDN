@@ -1,0 +1,237 @@
+/*
+Theme Name: Hostzine Child 02
+Theme URI: http://hostzine.demo.themexpert.com
+Template: hostzine
+Author: ThemeXpert
+Author URI: https://www.themexpert.com
+Description: Hostzine is Hosting base responsive WordPress Theme, Hostzine theme has helpful features like WHMCS compatibility, page building, domain availability search, and more.
+Tags: custom-header,custom-logo,blog,theme-options
+Version: 1.2.1525895616
+Updated: 2018-05-09 19:53:36
+
+*/
+
+header .container {
+	width: 90%;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary {
+	text-align: center;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu {
+	max-width: 700px !important;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.nav-btn-sales,
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.nav-btn-signup {
+	float: right;
+	margin-top: 10px;
+}
+
+.mega-block-title {
+	border: none !important;
+}
+
+.sticky-active.sticky #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.nav-btn-sales, 
+.sticky-active.sticky #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item.nav-btn-signup {
+	margin: 0;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row {
+	width: 100% !important;
+}
+
+.developer-form-wrapper,
+.talk-sales-wrapper {
+	min-height: 600px;
+}
+
+
+
+
+@media (min-width: 992px) {
+	header .logo {
+		width: 15%;
+	}
+	header .col-lg-9 {
+		width: 85%;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 1441px) {
+	.elementor-button.elementor-size-lg {
+		padding: 20px !important;
+		font-size: 16px !important;
+	}
+	.elementor-10215 .elementor-element.elementor-element-432925e > .elementor-widget-container {
+		margin-right: -35% !important;
+	}
+}
+
+@media (max-width: 1170px) {
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.top-banner img {
+		float: left;
+	}
+}
+
+@media (max-width: 767px) {
+	.mega-block-title {
+		display: none !important;
+	}
+	.footer .col-sm-4.col-lg-2 {
+		width: 50%;
+		float: left;
+	}
+}
+
+.single-post .entry-meta .post-social:before {
+    background: #eee;
+    height: 50px;
+    position: absolute;
+    width: 1px;
+    content: "";
+    left: -25px;
+    top: 5px;
+}
+
+.single-post span.post-social ul.post-share li img {
+    height: 21px;
+    margin-right: 6px;
+}
+
+.single-post span.post-social ul.post-share li {
+    list-style: none;
+    display: inline;
+}
+.single-post span.post-social ul.post-share {
+    margin: 0;
+    padding: 0;
+}
+
+body li#mega-menu-item-custom_html-11 .menu-featured-widget {
+    margin-bottom: 3px;
+    padding: 9px 12px;
+}
+
+@media only screen and (min-width:980px) {
+	
+body li#mega-menu-5244-1 {
+    margin-top: -60px!important;
+    margin-bottom: -20px!important;
+}
+	
+}
+
+
+@media only screen and (max-width: 478px) {
+body .footer .col-sm-4.col-lg-2 {
+	min-width:100%;
+    text-align:center;	
+}
+
+body.page-id-12408 .elementor-widget-container,
+body.page-id-12408 .elementor-widget-wrap .elementor-element.left-align-button.gr .elementor-widget-container,
+body.page-id-12405 .elementor-widget-container,
+body.page-id-12405 .elementor-widget-wrap .elementor-element.left-align-button.gr .elementor-widget-container {
+    margin-left: 0!important;
+	padding-bottom:8px;
+}
+	
+}
+
+@media only screen and (max-width:600px) {
+
+.page-id-13556.elementor-13556 .elementor-element.elementor-element-286c53c > .elementor-widget-container {
+    margin: 30px 0px 0px 0px;
+}
+
+.page-id-13556 .elementor-element > .elementor-widget-container {
+    margin-left: 10px!important;
+}
+
+.elementor-13556 .elementor-element.elementor-element-e58d78a > .elementor-widget-container,
+.elementor-13556 .elementor-element.elementor-element-8c5b8e5 > .elementor-widget-container,
+.elementor-13556 .elementor-element.elementor-element-b5398b9 > .elementor-widget-container {
+	padding-left: 0!important;
+    margin-left: 0!important; 
+    text-align: center;
+}
+
+.page-id-13556.elementor-13556 .elementor-element.elementor-element-8c5b8e5 > .elementor-widget-container {
+	margin-top:20px!important;
+}
+
+.elementor-13556 .elementor-element.elementor-element-e2837bc > .elementor-element-populated,
+.elementor-13556 .elementor-element.elementor-element-0d60e08 > .elementor-element-populated {
+		margin:0px 25px 0px 15px!important;
+	}
+	
+}
+
+body #tx-trigger-effects button {
+	background-color:#004cc9;
+}
+
+@media only screen and (max-width: 980px){
+    
+#mega-menu-wrap-mobile_menu #mega-menu-mobile_menu > li.mega-menu-item.mega-toggle-on > a.mega-menu-link,
+#mega-menu-wrap-mobile_menu #mega-menu-mobile_menu > li.mega-menu-item > a.mega-menu-link:hover {
+    color:#3ab7f8!important;
+}
+
+.custom-mega-nav .widget_nav_menu ul .menu-item {
+	background: #f1f5fc!important;
+    padding: 0;
+    margin: 0 0 2px;
+    width: 100%;
+}
+
+.custom-mega-nav .widget_nav_menu ul a {
+    font-size:14px!important;
+}
+
+li#mega-menu-item-custom_html-15 h3 {
+     padding-left: 11px;
+    margin: 13px 0px 6px;
+}
+
+#mega-menu-wrap-mobile_menu #mega-menu-mobile_menu li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row > ul.mega-sub-menu > li.mega-menu-columns-5-of-12,
+#mega-menu-wrap-mobile_menu #mega-menu-mobile_menu li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row > ul.mega-sub-menu > li.mega-menu-columns-6-of-12,
+#mega-menu-wrap-mobile_menu #mega-menu-mobile_menu li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row > ul.mega-sub-menu > li.mega-menu-columns-7-of-12 {
+ min-width:100%;
+}
+
+
+li#mega-menu-item-custom_html-14 .textwidget.custom-html-widget a {
+    background: #f1f5fc!important;
+    margin-bottom: 2px;
+}
+
+li#mega-menu-item-custom_html-15 .tx-menu ul li ul li {
+    margin-left: 0px;
+}
+	
+li#mega-menu-item-custom_html-15 .textwidget.custom-html-widget li {
+    margin-left: 0px;
+}
+li#mega-menu-item-custom_html-15 .textwidget.custom-html-widget a
+{
+    background: #f1f5fc!important;
+    margin-bottom: 2px;
+}
+
+#mega-menu-wrap-mobile_menu #mega-menu-mobile_menu > li.mega-menu-item > a.mega-menu-link {
+    text-transform:uppercase;
+}
+	
+
+#menu-1 {
+    background:#004cc9!important;
+}
+	
+}
