@@ -49,7 +49,7 @@
 .footer {
     background: #004CC9;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -63,6 +63,7 @@ a:hover {
     color: lightgray;
 }
 
+/* Footer */
 .footer-social a {
     color: white;
 }
@@ -73,4 +74,10 @@ a:hover {
 
 .fa-big {
     font-size: 22px;
+}
+
+/* Defaults */
+html,
+body {
+    padding-bottom: 100px;
 }
