@@ -79,5 +79,26 @@ a:hover {
 /* Defaults */
 html,
 body {
-    padding-bottom: 100px;
+    padding-bottom: 120px;
+}
+
+/* Code Colors */
+.comment {
+    color: green;
+}
+
+.nt {
+    color: #2F709F;
+}
+
+.na {
+    color: #76A9EB;
+}
+
+.s {
+    color: #D73038;
+}
+
+.lightgray-bg {
+    background-color: #F8F9FA;
 }
