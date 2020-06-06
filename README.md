@@ -21,7 +21,7 @@ CDN for Agora.io's Real Time Communication SDK.
 
 ## Requirements
 
-[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/Agora-RTC-CDN?logo=html&style=social)](https://github.com/akshatvg/)
+[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/Agora-RTC-CDN?logo=javascript&style=social)](https://github.com/akshatvg/)
 
 The source code of this project is written in **`HTML/CSS/JS`**. So, you do not require anything extra to run this project. It is deployed using an Elastic Load Balancer to ensure load is well balanced and secure without facing any breakdowns.
 
