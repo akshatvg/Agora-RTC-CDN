@@ -13,7 +13,7 @@ recognition.onresult = function (event) {
     var transcript = event.results[current][0].transcript;
 
     Content = Content + transcript + "<br>";
-    document.getElementById("chatbox").innerHTML = "<p class='chats'>" + Content + "</p>";
+    document.getElementById("chatbox").innerHTML = "<p class='chats'>" + Content + "</p><br>";
 
 };
 
