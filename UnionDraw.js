@@ -629,14 +629,6 @@ function drawLine (color, thickness, x1, y1, x2, y2) {
 }
  
 //==============================================================================
-// STATUS
-//==============================================================================
-// Updates the text of the on-screen HTML "status" div tag
-function setStatus (message) {
-  document.getElementById("status").innerHTML = message;
-}
- 
-//==============================================================================
 // IPHONE UTILS
 //==============================================================================
 // Hides the iPhone address bar by scrolling it out of view
