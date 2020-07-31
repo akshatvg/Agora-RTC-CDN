@@ -99,8 +99,6 @@ function init () {
   registerInputListeners();
   initOrbiter();
   iPhoneToTop();
- 
-  setStatus("Connecting to UnionDraw...");
 }
  
 // Set up the drawing canvas
@@ -112,10 +110,6 @@ function initCanvas () {
   if (typeof G_vmlCanvasManager != "undefined") {
     this.canvas = G_vmlCanvasManager.initElement(this.canvas);
   }
- 
-  // Size canvas
-  canvas.width  = 600;
-  canvas.height = 400;
  
   // Retrieve context reference, used to execute canvas drawing commands
   context = canvas.getContext('2d');
@@ -145,7 +139,6 @@ function initOrbiter () {
  
   // If required JavaScript capabilities are missing, abort
   if (!orbiter.getSystem().isJavaScriptCompatible()) {
-    setStatus("Your browser is not supported.")
     return;
   }
  
@@ -185,7 +178,6 @@ function readyListener (e) {
  
 // Triggered when the connection to Union Server is closed
 function closeListener (e) {
-  setStatus("Disconnected from UnionDraw.");
   // Stop drawing content sent by other users
   clearInterval(processDrawingCommandsIntervalID);
 }
@@ -201,11 +193,8 @@ function joinedRoomListener (roomID) {
 function roomOccupantCountUpdateListener (roomID, numOccupants) {
   numOccupants = parseInt(numOccupants);
   if (numOccupants == 1) {
-    setStatus("Now drawing on your own (no one else is here at the moment)");
   } else if (numOccupants == 2) {
-    setStatus("Now drawing with " + (numOccupants-1) + " other person");
   } else {
-    setStatus("Now drawing with " + (numOccupants-1) + " other people");
   }
 }
  
