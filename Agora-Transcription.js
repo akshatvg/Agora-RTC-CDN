@@ -19,7 +19,6 @@ recognition.onresult = function (event) {
 
 recognition.onstart = function () {
     console.log('Voice recognition is on.');
-    recognition.onstart();
 }
 
 recognition.onspeechend = function () {
