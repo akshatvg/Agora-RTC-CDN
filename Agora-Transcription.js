@@ -23,13 +23,13 @@ recognition.onstart = function () {
 
 recognition.onspeechend = function () {
     console.log('No activity found.');
-    recognition.onstart();
+    recognition.start();
 }
 
 recognition.onerror = function (event) {
     if (event.error == 'no-speech') {
         console.log('Could you please repeat? I didn\'t get what you\'re saying.');
-        recognition.onstart();
+        recognition.start();
     }
 }
 
