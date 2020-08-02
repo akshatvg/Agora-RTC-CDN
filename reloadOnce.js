@@ -1,6 +1,7 @@
-$(document).ready(function () {
-    if (location.href.indexOf('reload') == -1) {
-        location.href = location.href + '?reload';
-        window.location.reload();
-    }
-});
+if (!localStorage.getItem("reload")) {
+    localStorage.setItem("reload", "true");
+    location.reload();
+}
+else {
+    localStorage.removeItem("reload");
+}
