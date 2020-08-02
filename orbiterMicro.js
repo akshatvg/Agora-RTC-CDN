@@ -3292,7 +3292,7 @@
 
   /** @private */
   net.user1.orbiter.WebSocketConnection.prototype.buildURL = function () {
-    return "ws://" + this.host + ":" + this.port;
+    return "wss://" + this.host + ":" + this.port;
   };
 
   /** @private */
