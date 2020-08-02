@@ -1,9 +1,7 @@
-var only_once = "0";
-
-$('body').bind('pageshow', function () {
-    if (only_once == 1) {
-        only_once = 0;
+$(document).ready(function () {
+    if (document.URL.indexOf("#loaded") == -1) {
+        url = document.URL + "#loaded";
+        location = "#loaded";
         location.reload(true);
-
     }
 });
