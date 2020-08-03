@@ -3292,7 +3292,7 @@
 
   /** @private */
   net.user1.orbiter.WebSocketConnection.prototype.buildURL = function () {
-    return "wss://" + this.host + ":" + this.port;
+    return "ws://" + this.host + ":" + this.port;
   };
 
   /** @private */
@@ -3445,7 +3445,7 @@
 
   /** @private */
   net.user1.orbiter.SecureWebSocketConnection.prototype.buildURL = function () {
-    return "wss://" + this.host + ":" + this.port;
+    return "ws://" + this.host + ":" + this.port;
   };
   //==============================================================================    
   // CLASS DECLARATION
