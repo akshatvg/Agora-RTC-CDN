@@ -1,4 +1,4 @@
-var SpeechRecognition = window.webkitSpeechRecognition;
+var SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
 
 var recognition = new SpeechRecognition();
 
